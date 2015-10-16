@@ -76,7 +76,7 @@ might look something like this: <PRE>
 In the setup() method,
 reset everything to starting positions:
 <UL>
-<LI> Monster on one side of the screen, at a random height
+<LI> Monster on one side of the screen (randomly left or right), at a random height
 <LI> Hero is transported to <B><U>safety</U></B> within the house <I>(above horizon)</I>.
 <LI> Gold at a random position near the center of the screen.
 <LI> // <I>Since this reset is used elsewhere, you should make it a separate method.</I>
@@ -148,9 +148,9 @@ and the gold at a random position near the center.
 
 <UL>
 <LI> When hero gets gold, add 50 points and transport him into the house.
-<LI> If monster catches hero, he loses 100 points and transports to side of window.
+<LI> If monster catches hero, hroe loses 100 points and monster goes to left or right side.
 <LI> Monster cannot go above the horizon (cannot catch hero within house).
-<LI> Player may click button to create new gold at any time <I>(to escape monster!)</I>
+<LI> Player may click button to create new gold at any time <I>(or to escape monster!)</I>
 </UL>
 
 <HR>
