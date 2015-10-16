@@ -26,7 +26,7 @@ Design two animated creatures (a hero and a monster)
 that are drawn with
 at least three different fill colors,
 using drawing methods
-such as rect, ellipse,line, etc. 
+such as rect, ellipse, line, etc. 
 The monster chases the hero,
 who chases after the gold.
 As they move about, 
